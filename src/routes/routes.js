@@ -1,11 +1,12 @@
 const router = require('express').Router()
 
-router.get('/usuarios', (req,res) => {
+const UsersController = require('../controllers/users')
 
-    res.send({
-        ok:123
-    })
+router.get('/usuarios', UsersController.get)
 
-})
+
+// router.post('/usuarios', UsersController.post)
+// router.put('/usuarios', UsersController.put)
+// router.delete('/usuarios', UsersController.delete)
 
 module.exports = router
