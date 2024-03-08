@@ -2,7 +2,7 @@ const router = require('express').Router()
 
 const UsersController = require('../controllers/users')
 
-router.get('/usuarios', UsersController.get)
+router.get('/usuarios/:id?', UsersController.get)
 
 
 // router.post('/usuarios', UsersController.post)
