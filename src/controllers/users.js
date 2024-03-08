@@ -12,6 +12,23 @@ async function get(req, res) {
     res.send(usuarios)
 }
 
+async function post(req,res){
+    const {
+        comment,
+    } = req.body // vou receber do req.body pq e post
+
+    const register = new UsersModel({
+        comment,
+    })
+
+    register.save()
+
+    res.send({
+        message: 'success'
+    })
+}
+
 module.exports = {
     get,
+    post,
 }
