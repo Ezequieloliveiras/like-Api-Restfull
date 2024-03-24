@@ -9,6 +9,7 @@ const app = express()
 db.connect()
 
 const allowedOrigins = [
+'bb069ade-3f23-4e35-bda6-f7b019a69ced',
 'https://auraeventos.netlify.app/',
 'https://like-api-restfull.onrender.com',
 'http://localhost:3000',
