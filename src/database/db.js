@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 function connect() {
 
-    mongoose.connect('mongodb+srv://quielonliner:dzV6CMbeUUVPDQbE@cluster0.8yjlvsa.mongodb.net/authapp')
+    mongoose.connect('mongodb+srv://dbaura:jnmw6B4WlnLyZS7Z@cluster0.lpzhuto.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 
     const db = mongoose.connection
 
