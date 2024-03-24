@@ -10,7 +10,7 @@ db.connect()
 
 const allowedOrigins = [
 'https://auraeventos.netlify.app',
-'https://like-api-restfull.onrender.com/api/usuarios',
+// 'https://like-api-restfull.onrender.com/api/usuarios',
 'https://like-api-restfull.onrender.com',
 'http://localhost:3000',
 'http://localhost:3001',
