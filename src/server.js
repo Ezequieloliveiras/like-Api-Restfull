@@ -9,14 +9,13 @@ const app = express()
 db.connect()
 
 const allowedOrigins = [
-'bb069ade-3f23-4e35-bda6-f7b019a69ced',
-'https://auraeventos.netlify.app/',
+'https://like-api-restfull.onrender.com/api/usuarios',
 'https://like-api-restfull.onrender.com',
 'http://localhost:3000',
 'http://localhost:3001',
 'http://127.0.0.1:5500'
 ]
-
+// https://auraeventos.netlify.app
 // habilita cros
 app.use(cors({
     origin: function(origin, callback) {
